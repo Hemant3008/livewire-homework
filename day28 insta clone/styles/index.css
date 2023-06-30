@@ -4,6 +4,7 @@
     /* border: 1px solid red; */
     margin-left: 235px;
     margin-top: 32px;
+   
 }
 
 #a2{
@@ -43,9 +44,9 @@
     padding-left: 6px;
     background-color: #fafafa;
 }
-.card1>form>button{
+#log{
     /* border:1px solid black ; */
-    width:259px;
+    width:260px;
     height: 30px;
     margin-top: 10px;
     margin-left: 35px;
@@ -147,6 +148,7 @@
     height: 100px;
     margin-left: 40px;
     display: flex;
+    
 }
 .img1{
     width: 120px;
@@ -166,6 +168,7 @@
 #container3{
     /* border: 1px solid black; */
     margin-left: 230px;
+   padding-top: 100px;
 }
 #container3>a{
     text-decoration: none;
