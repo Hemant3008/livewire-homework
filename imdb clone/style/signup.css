@@ -1,0 +1,132 @@
+#mainimg{
+    margin: auto;
+    margin-left: 470px;
+    width: 130px;
+    height: 65px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#sform{
+    border: 2px solid #e1e1e1;
+    width:30%;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    color: #111111;
+    font-style: normal;
+
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 19px;
+    font-style: normal;
+    color: #111111;
+    /* border: 1px solid red; */
+}
+#sform>input{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #959ba8;
+    width:95%;
+    height: 32px;
+    padding-left: 10px;
+    margin-top: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #959ba8 ;
+   
+}
+.alert{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.pass{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    
+}
+.alert>i{
+    margin-left: 3px;
+    color: aqua;
+}
+#create{
+     width: 99%;
+     height: 40px;
+     background-color:#ffd814;
+     border-radius: 10px;
+     border: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 17px;
+}
+.divider1{
+    width: 400px;
+    height: 12px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.pa{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.pa>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.pa>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 5px;
+    color: #417dcd;
+}
+.pa>i{
+    color: #417dcd;
+    margin-left: 5px;
+}
+.divider2{
+    width: 90%;
+    height: 12px;
+    /* border: 1px solid red; */
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.links>a{
+    text-decoration: none;
+    color: #417dcd;
+    margin-left: 30px;
+}
+.links{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+    
+}
+.paratxt{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.backlink{
+    text-decoration: none;
+    
+}
