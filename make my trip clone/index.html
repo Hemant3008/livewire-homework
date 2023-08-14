@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/8a107436af.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&family=Lato:wght@900&family=Montserrat:wght@400;500;600;700&family=Poppins&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <div id="container1">
+        <div class="navbar1">
+            <img class="logoimg" src="./images/makemy trip logo.png" alt="logoimg">
+            <div class="percentimg">
+                <div class="a1">
+                    <a href=""><img class="disc" src="./images/discount.png" alt=""></a>
+
+                </div>  
+               
+                <div class="discount">
+                    <a class="d1" href="">Super Offers</a>
+                    <a class="d2" href="">Explore great deals & offers</a>
+                </div>
+            </div>
+            <div class="biz">
+                <div class="b1">
+                    <a href=""><img class="bizlogo" src="./images/myBizLogo_light.avif" alt=""></a>
+                </div>
+                <div class="b2">
+                    <a class="b2a" href="">Introducing myBiz</a>
+                    <a class="b2b" href="">Business Travel Solution</a>
+                </div>
+                
+            </div>
+            <div class="sprite">
+                <div class="c1">
+                    <a href=""><img class="c1a" src="./images/sprite.jpg" alt=""></a>
+                </div>
+                <div class="c2">
+                    <a class="c2a" href="">My Trips</a>
+                    <a class="c2b" href="">Manage your bookings</a>
+                </div>
+            </div>
+            <div class="a3">
+                <a class="a3a" href="./pages/signup.html"><img src="./images/mycircle.png" alt=""></a>
+                <a class="a3b" href="./pages/signup.html">Login or Create Account</a>
+                <a class="a3c" href="./pages/signup.html"><i class="fa-solid fa-chevron-down"></i></a>
+
+            </div>
+            
+            <div class="dropdown">
+                
+                <button  onclick="show()" class="dropbtn1"><img class="indiaflag" src="./images/india flag.png" alt=""> IN | ENG | INR  <i class="fa-solid fa-chevron-down"></i></button>
+                <form action="" id="rform">
+                    <div class="selectcount" >
+                        <select type="text" name="Select Country" id="country">
+                            <option value="">Select Country</option>
+                            <option value="">India</option>
+                            <option value="">UAE</option>
+                            <option value="">USA</option>
+                        </select>
+                   
+                    </div>
+                    <div class="f111">
+                        <div class="language">
+                            <h4>Select Language</h4>
+                            <input class="f13" type="radio" name="language" value="">
+                            <label for="">English</label><br>
+                            <input class="f13" type="radio" name="language" value="">
+                            <label for="">हिंदी</label><br>
+                            <input class="f13" type="radio" name="language" value="">
+                            <label for="">தமிழ்</label>
+                           
+                            
+                        </div>
+                        <div class="currency">
+                            <h4>Select Currency</h4>
+                            <input class="f13" type="radio" name="" value="">
+                            <label for="">INR</label>
+                        </div>
+            
+                    </div>
+                    
+                    
+                    <div id="applybtn">
+                        <button id="apply">Apply</button>
+            
+                    </div>
+            
+            
+            </form>
+            </div>
+
+        </div>
+        <div class="box2">
+
+            <div class="pp" >
+                <input type="radio" name="choose" id="oneway" value="oneway">
+                <label for="">One Way</label>
+                <input type="radio" name="choose" id="RoundTrip" value="RoundTrip">
+                <label for="">Round Trip</label>
+                <input type="radio" name="choose" id="MultiCity" value="MultiCity">
+                <label for="">Multi City</label>
+                <p>Book International and Domestic Flights</p>
+            </div>
+
+            <div class="from">
+                <div class="fr1"> 
+                    <p>From</p>
+                    <button class="n1">Nagpur</button>
+                    <button class="n2">NAG,Dr.Babasaheb Ambedkar International Airport</button>
+                </div>
+                <button class="swap"><i class="fa-solid fa-right-left "></i></button>
+                <div class="fr2">
+                    <p>To</p>
+                    <button class="arr1">Bengaluru</button>
+                    <button class="arr2"> BLR,Bengaluru International Airport</button>
+                   
+                </div>
+                <div class="fr3">
+                    <p>Departure<i class="fa-solid fa-chevron-down"></i></p>
+                    <input type="date" name="date" id="dt">
+                    
+
+                </div>
+                <div class="fr4">
+                    <p>Return<i class="fa-solid fa-chevron-down"></i></p>
+                    <input type="date" name="date" id="dt">
+                    
+                </div>
+                <div class="fr5">
+                    <p>Traveller & class<i class="fa-solid fa-chevron-down"></i></p>
+                    <button class="trav1">1 Traveller</button> 
+                    <button class="trav2">Economy/Premium Economy</button>   
+                </div>
+
+
+            </div>
+            <div class="faretype">
+                <p>Select A Fare Type:</p>
+
+                <div class="fare1" >
+                    <input type="radio" name="fare" id="">
+                    <p>Regular Fares</p>
+                </div>
+                <div class="fare1">
+                    <input type="radio" name="fare" id="">
+                    <p>Armed Forces Fares</p>
+                </div>
+                <div class="fare1">
+                    <input type="radio" name="fare" id="">
+                    <p>Student Fares</p>
+                </div>
+                <div class="fare1">
+                    <input type="radio" name="fare" id="">
+                    <p>Senior Citizen Fares</p>
+                </div>
+                <div class="fare1">
+                    <input type="radio" name="fare" id="">
+                    <p>Doctor & Nurses Fares</p>
+                </div>
+                <div class="fare1"> 
+                    <input type="radio" name="fare" id="">
+                    <p>Double Seat Fares</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box1">
+            <div class="l1">
+                <a href=""><img  src="./images/aeroplane.png" alt=""></a>
+                <a href="">Flights</a>
+
+            </div>
+            <div class="l2">
+                <a href=""> <img  src="./images/hotel icon img.png" alt=""></a>
+                <a href="">Hotels</a>
+
+            </div>
+            <div class="l3">
+                <a href=""><img  src="./images/homestays.png" alt=""></a>
+                <a href="">Homestays</a>
+                
+            </div>
+            <div class="l4">
+                <a href=""><img src="./images/holiday packages.png" alt=""></a>
+                <a href="">Holiday Packages</a>
+
+            </div>
+            <div class="l5">
+                <a href=""><img src="./images/trains.png" alt=""></a>
+                <a href="">Trains</a>
+
+            </div>
+            <div class="l6">
+                <a href=""> <img src="./images/buses.png" alt=""></a>
+                <a href="">Buses</a>
+
+            </div>
+            <div class="l7">
+                <a href=""> <img src="./images/cabs.png" alt=""></a>
+                <a href="">Cabs</a>
+
+            </div>
+            <div class="l8">
+                <a href=""><img src="./images/forex.png" alt=""></a>
+                <a href="">Forex</a>
+
+            </div>
+            <div class="l9">
+                <a href=""><img src="./images/charter flights.png" alt=""></a>
+                <a href="">Charter Flights</a>
+
+            </div>
+        </div>
+        <div id="serachbtn">
+            <div id="butt">
+                <button>SEARCH</button>
+            </div>
+           
+            <div class="explore">
+                <img src="./images/downArrow.png" alt="">
+                <p>Explore More</p>
+                <img src="./images/downArrow.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="box3">
+            <div class="box3a">
+                <img src="./images/circle img.png" alt="">
+                <a href="">Where2Go</a>
+
+            </div>
+            <div class="box3b">
+                <img src="./images/mountain img.png" alt="">
+                <div class="ica">
+                    <a class="ca" href="">Insurance</a><br>
+                    <a class="cb" href="">For International Tips</a>
+
+                </div>
+               
+            </div>
+            <div class="box3c" >
+                <img src="./images/globe type img.avif" alt="">
+                <div class="icb">
+                    <a class="caa"  href="">Explore International Fliughts</a>
+                    <a class="cbb"  href="">Cheapest Flights to Paris, Bali, Tokyo & more</a>
+
+                </div>
+               
+
+            </div>
+            <div class="box3d">
+                <img src="./images/audience img.png" alt="">
+                <div class="icc">
+                    <a class="mi" href="">MICE</a>
+                    <a class="off" href="">Offsites,Events & Meetings</a>
+
+                </div>
+              
+
+            </div>
+            <div class="box3e">
+                <img src="./images/knot img.png" alt="">
+                <a href="">Gift Cards</a>
+
+            </div>
+
+        </div>
+
+        
+            
+
+
+    </div>
+    <div id="container2">
+        <div class="mainhead"> 
+            <h1>OFFERS</h1>
+            <h3>Flights</h3>
+            <a href="https://www.makemytrip.com/offers/">VIEW ALL</a>
+            
+        </div>
+        <div id="boxer1">
+            <a  href="https://www.makemytrip.com/promos/df-kotak-01012023.html?detail_image=no">
+                <div class="cont2aa">
+                    <div class="cont2a">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-df-02082023.jpg?im=Resize=(134,134)" alt="">
+                        <p>T&C's Apply</p>
+                    </div>
+                    <div class="cont2ab">
+                        <h3>Grab Flat 12% OFF* on Domestic Flights!</h3>
+                        <p>Valid on Kotak Bank Credit and Debit Cards.  </p>
+                        <h4>EXPLORE OFFERS</h4>
+                    </div>
+    
+                </div>
+               
+            </a>
+            <a  href="https://www.makemytrip.com/promos/if-cfar-sep22.html?detail_image=no">
+                <div class="cont2aa">
+                    <div class="cont2a">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-IF-CFAR-26092022.jpg?im=Resize=(134,134)" alt="">
+                        <p>T&C's Apply</p>
+                    </div>
+                    <div class="cont2ab">
+                        <h3>INTRODUCED: 'ZERO Cancellation'!</h3>
+                        <p>A WOW benefit to help  you get 100% refund on international flight cancellations.</p>
+                        <h4>BOOK NOW</h4>
+                    </div>
+    
+                </div>
+               
+            </a>
+        </div>
+        <div id="boxer2">
+            <a  href="https://www.makemytrip.com/promos/citi-international-if-ih-offer-jan23.html?detail_image=no">
+                <div class="cont2aa">
+                    <div class="cont2a">
+                        <img src="https://promos.makemytrip.com/images//Desktop-IH-Citi-010823.jpg?im=Resize=(134,134)" alt="">
+                        <p>T&C's Apply</p>
+                    </div>
+                    <div class="cont2ab">
+                        <h3>Presenting #1Int'lNightStayOnUs!</h3>
+                        <p>Get 1 Int'l Night Stay for FREE with 1 Int'l Flight Booking</p>
+                        <h4>BOOK NOW</h4>
+                    </div>
+    
+                </div>
+               
+            </a>
+            <a  href="https://www.makemytrip.com/promos/hdfc-emi-22062023.html?detail_image=no">
+                <div class="cont2aa">
+                    <div class="cont2a">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-hdfc-emi-21062023.jpg?im=Resize=(134,134)" alt="">
+                        <p>T&C's Apply</p>
+                    </div>
+                    <div class="cont2ab">
+                        <h3>Grab Up to <i class="fa-solid fa-indian-rupee-sign" style="color: #1e1e1f;"></i>30,000 OFF* on</h3>
+                        <p>flights,hotels & holiday packages.</p>
+                        <h4>BOOK NOW</h4>
+                    </div>
+    
+                </div>
+               
+            </a>
+
+        </div>
+        
+          
+
+        
+
+
+    </div>
+    <div id="container3">
+        <div class="cont1">
+            <a href="https://www.makemytrip.com/myrabot/login"><img src="./images/mmt yatra.png" alt=""></a>
+            <a href="https://www.makemytrip.com/myrabot/login">Book Flights with Voice Chat! <br>Code:MMTMYRA will be auto-applied for EXTRA discounts! </a>
+        </div>
+        <div class="cont2">
+            <a href="https://www.makemytrip.com/travel-guidelines/?schedule=webview"><img src="./images/cont3 div2.avif" alt=""></a>
+            <div class=".cont2aa">
+                <a class="cont2a" href="https://www.makemytrip.com/travel-guidelines/?schedule=webview">Planning to book an international Flight?</a>
+                <a class="cont2b" href="https://www.makemytrip.com/travel-guidelines/?schedule=webview">Check Travel Guidelines</a>
+            </div>
+           
+        </div>
+        <div class="cont3">
+            <a href="https://www.makemytrip.com/?ccde=in&lang=hin"><img src="./images/aa cont3.png" alt=""></a>
+            <div class="cont3aa">
+                <a class="cont3a" href="https://www.makemytrip.com/?ccde=in&lang=hin">We are now available in हिंदी! </a>
+                <a class="cont3b" href="https://www.makemytrip.com/?ccde=in&lang=hin">Change Language</a>
+            </div>
+            
+        </div>
+        
+    </div>
+   
+    <div class="summerimg">
+        <img id="spons" src="./images/sponsored.png" alt="">
+        <a href="https://www.makemytrip.com/promos/hilton-stays-200723.html"><img class="sum" src="https://platforms.makemytrip.com/contents/2cc3b908-b62b-4a5d-9d1a-5f79fd69b6d8" alt=""></a>
+    
+    </div>
+    <div id="container4">
+        <div class="bigd">
+            <div class="download">
+                <div class="gift">
+                    <img src="./images/mygift.png" alt="">
+                </div>
+               <div class="down">
+                <h1>Download App Now !</h1>
+                <p>Use code <b>WELCOMEMMT</b> and get <b>FLAT 12%</b> OFF* on your first domestic flight booking</p>
+            
+               </div>
+    
+            </div>
+            <div id="a4">
+                <div class="flag"> 
+                    <img src="./images/india flag.png" alt="">
+                    <h4>+91 -</h4>
+                </div>
+                <input type="number" name="" id="" placeholder="Enter Mobile number">
+                <button>GET APP LINK</button>
+
+            </div>
+    
+
+        </div>
+        <div class="smalld">
+            <div class="aa4">
+                <a href="https://play.google.com/store/apps/details?id=com.makemytrip&%24web_only=true&_branch_match_id=1192418407074667895&_branch_referrer=H4sIAAAAAAAAAw3KSQoAIAgAwB%2Flvd9IBkm5YEL0%2B5rzjEzfFQDdF%2BvcRXB2uRnspZlAB1QKY%2FqB7OgypAe6NG0fNAAAAA%3D%3D"><img class="get" src="./images/google play.png" alt=""></a>
+                <a href="https://apps.apple.com/us/app/makemytrip/id530488359?%24web_only=true&_branch_match_id=1192418407074667895&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywoyMnMyy7Wy03MTs2tLCnKLNBLzs%2FVT9XPzC8GSqbkl%2Bfl5CemAABMVDWbMAAAAA%3D%3D"><img class="store" src="./images/app store.webp" alt=""></a>
+
+            </div>
+            <div>
+                <img class="qr" src="./images/QRCodeDT_QR-code.jpg" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+    <div id="container5">
+        <div id="alpha5">
+            <h1>Handpicked Collections for You</h1>
+            <button onclick="prev5()"><i class="fa-solid fa-arrow-left"></i></button>
+            <button onclick="next5()"><i class="fa-solid fa-arrow-right-long"></i></button>
+
+        </div>
+        
+        <div id="card5"></div>
+
+    </div>
+    <div id="container6"> 
+        <div id="alpha6">
+            <h1>Unlock Lesser-Known Wonders of India</h1>
+            <button onclick="prev6()"><i class="fa-solid fa-arrow-left"></i></button>
+            <button onclick="next6()"><i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        <div id="card6"></div>
+    </div>
+    <div id="container7">
+        <img class="tripimg" src="./images/trip money.png" alt="">
+        <div class="tm">
+            <img src="./images/tm logo.png" alt="">
+            <a href=""><b>Forex</b>at best exchange rates delivered at your doorstep</a>
+
+        </div>
+        <div class="order">
+            <a href="">ORDER NOW</a>
+            <i><i class="fa-solid fa-arrow-right fa-lg"></i></i>
+
+        </div>
+
+    </div>
+    <div id="container8">
+        <p>PRODUCT OFFERING</p>
+        <a href="">Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab</a>
+        <p>MAKEMYTRIP</p>
+        <a href="">About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us, RedBus Ferry Malaysia, RedBus Ferry Singapore</a>
+        <p>ABOUT THE SITE</p>
+        <a href="">Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home, Report Security Issues</a>
+        <p>TOP HOTELS IN INDIA</p>
+        <a href="">Fairmont Jaipur, St Regis Goa, Six Senses Fort Barwara, W Goa, Grand Hyatt Goa, Shangri-La Bangalore, The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh Palace Jaipur, Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott Chandigarh, Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc Maratha Mumbai, Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune, Park Hyatt Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The Ritz Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal Kolkata, Taj Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The Leela Palace New Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai, Best Hotels in India</a>
+        <p>TOP INTERNATIONAL HOTELS</p>
+        <a href="">Adaaran Club Rannalhi, Marina Bay Sands Singapore, Coco Bodu Hithi, Taj Dubai, Atlantis Hotel Dubai, Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon Maldives, Gevora Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace, Baiyoke Sky Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach Resort, Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel Pattaya, Taj Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj Exotica Resort Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel Albert Court, Amari Pattaya</a>
+        <p>QUICK LINKS</p>
+        <a href="">Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar</a>
+        <p>IMPORTANT LINKS</p>
+        <a href="">Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman</a>
+        <p>CORPORATE TRAVEL</p>
+        <a href="">Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</a>
+
+    </div>
+    <div id="container9">
+        <div class="bl1">
+            <h4>Why MakeMyTrip?</h4>
+            <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+
+        </div>
+        <div class="bl2">
+            <h4>Booking Flights with MakeMyTrip</h4>
+            <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+
+        </div>
+        <div class="bl3">
+            <h4>Domestic Flights with MakeMyTrip</h4>
+            <p>MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+        </div>
+    </div>
+    <div id="container10">
+        <div class="symbol">
+            <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+        </div>
+        <div class="para">
+            <p class="p1">© 2023 MAKEMYTRIP PVT. LTD.</p>
+            <p class="p2">Country India USA UAE</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<script src="./script/script.js"></script>

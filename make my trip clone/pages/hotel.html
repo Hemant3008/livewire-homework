@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/hotel.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/8a107436af.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&family=Lato:wght@900&family=Montserrat:wght@400;500;600;700&family=Poppins&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container1">
+
+    </div>
+    <h1>post the obj in database</h1>   
+    <form action="" id="hotel_form">
+        <label for="">Hotel Location</label>
+        <input type="text" name="location" id="location" placeholder="enter Hotel location">
+        <label for="">Hotel Name</label>
+        <input type="text" name="hotelname" id="hn" placeholder="enter hotel name">
+        <label for="">Customer Name</label>
+        <input type="text" name="custname" id="cn" placeholder="enter customer name">
+        <label for="">Hotel Price per day</label>
+        <input type="number" name="hotelprice" id="hp" placeholder="enter hotel price per day">
+        <label for="">Check-In Date</label>
+        <input type="date" name="checkin" id="cin" placeholder="select check-in date">
+        <label for="">Check-Out Date</label>
+        <input type="date" name="checkout" id="cout" placeholder="select check-out date">
+        <label for="">No.of Guest</label>
+        <input type="number" name="guestno" id="guest" placeholder="enter no.of guest ">
+        <label for="">No. of Rooms required</label>
+        <input type="number" name="roomno" id="rn" placeholder="Enter No. of Rooms required">
+        <select name="roomtype" id="">
+            <option value="">SELECT roomtype</option>
+            <option value="AC">AC</option>
+            <option value="NON AC">NON AC</option>
+          
+        </select> 
+     
+        <input type="submit" onclick="getdata()" >
+    </form>
+    
+
+    <h3>Delete items</h3>
+    <input type="text" id="deletecustname" placeholder="delete customer name">
+    <button onclick="deletedata()">click to delete</button>
+</body>
+</html>
+<script src="../script/hotel.js" type="module" ></script>
