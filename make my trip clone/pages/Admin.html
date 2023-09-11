@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/Admin.css">
+ </head>
+ <body>
+    <h1>post the obj in database</h1>   
+    <form action="" id="hotel_form">
+        <input type="text" name="fid" id="id" placeholder="enter id">
+        <label for="">Hotel Location</label>
+        <input type="text" name="location" id="location" placeholder="enter Hotel location">
+        <label for="">Hotel Name</label>
+        <input type="text" name="hotelname" id="hn" placeholder="enter hotel name">
+        <label for="">Customer Name</label>
+        <input type="number" name="hotelprice" id="hp" placeholder="enter hotel price per day">
+        <label for="">Check-In Date</label>
+        <input type="date" name="checkin" id="cin" placeholder="select check-in date">
+        <label for="">No.of Guest</label>
+        <input type="number" name="guestno" id="guest" placeholder="enter no.of guest ">
+        <label for="">No. of Rooms required</label>
+        <input type="number" name="roomno" id="rn" placeholder="Enter No. of Rooms required">
+        <select name="roomtype" id="">
+            <option value="">SELECT roomtype</option>
+            <option value="AC">AC</option>
+            <option value="NON AC">NON AC</option>
+          
+        </select> 
+     
+        <input type="submit" >
+    </form>
+    
+   <h2>update the object in database</h2>
+   <form action="" id="hotelupdate">
+      <input type="text" name="fid" id="id" placeholder="enter id">
+      <label for="">Hotel Location</label>
+      <input type="text" name="location" id="location" placeholder="enter Hotel location">
+      <label for="">Hotel Name</label>
+      <input type="text" name="hotelname" id="hn" placeholder="enter hotel name">
+      <label for="">Hotel Price per day</label>
+      <input type="number" name="hotelprice" id="hp" placeholder="enter hotel price per day">
+      <label for="">Check-In Date</label>
+      <input type="date" name="checkin" id="cin" placeholder="select check-in date">
+      <label for="">No.of Guest</label>
+      <input type="number" name="guestno" id="guest" placeholder="enter no.of guest ">
+      <label for="">No. of Rooms required</label>
+      <input type="number" name="roomno" id="rn" placeholder="Enter No. of Rooms required">
+      <select name="roomtype" id="">
+        <option value="">SELECT roomtype</option>
+        <option value="AC">AC</option>
+        <option value="NON AC">NON AC</option>
+      
+      </select> 
+ 
+      <input type="submit" >
+    </form>
+
+    
+    <h3>Delete items</h3>
+    <input type="text" id="deleteid" placeholder="delete id">
+    <button id="delbtn" onclick="deldata()">click to delete</button>
+
+    <form action="" id="hoteldata">
+      <input type="text" name="hid" id="id" placeholder="enter id">
+      <input type="text" name="himage" id="hi" placeholder="enter hotel Image">
+      <input type="text" name="hname" id="hn" placeholder="enter hotel name">
+      <input type="number" name="hprice" id="hp" placeholder="enter hotel price">
+      <input type="submit"  >
+    </form>
+
+    
+ </body>
+ </html>
+ <script src="../script/Admin.js"></script>

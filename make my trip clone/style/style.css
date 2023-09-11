@@ -45,8 +45,10 @@ body{
     margin: auto;
     display: flex;
     align-items: center;
-   
-    
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:  #061424;
 }
 .discount{
     /* border: 1px solid white; */
@@ -1175,7 +1177,7 @@ b {
 .smalld{
     display: flex;
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 80px;
 }
 #container5{
     width: 85%;
@@ -1200,7 +1202,7 @@ b {
 }
 #alpha5>button{
     position: relative;
-    left: 55%;
+    left: 50%;
     height: 40px;
     width: 50px;
     margin-top: 20px;
@@ -1209,6 +1211,7 @@ b {
     background-color: white;
 
 }
+
 #alpha5>h1{
     margin-left: 30px;
 }
@@ -1233,7 +1236,7 @@ b {
 }
 #alpha6>button{
     position: relative;
-    left: 47%;
+    left: 42%;
     height: 40px;
     width: 50px;
     margin-top: 20px;

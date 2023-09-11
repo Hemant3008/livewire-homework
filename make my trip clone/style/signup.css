@@ -1,10 +1,8 @@
 #accountform{
     width: 40%;
-    height: 630px;
+    height: 650px;
     border: 1px solid white;
     border-radius: 10px;
-    /* margin-left: 600px;
-    margin-top: 50px; */
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -191,4 +189,45 @@ form{
 }
 .belowtxt>p{
     
+}
+
+h1{
+    text-align: center;
+}
+
+#deleteid{
+    width: 30%;
+    height:30px;
+}
+
+#delbutt{
+    width: 30%;
+    height:40px;
+    background-color: #008cff;
+    color: #f0f2f5;
+    font-size: large;
+}
+
+#formlogin{
+    width: 37%;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: auto;
+    /* margin-top: 50px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px;
+    background-color: aquamarine;
+
+}
+
+input{
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
 }

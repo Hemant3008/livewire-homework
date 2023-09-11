@@ -1,6 +1,8 @@
-/* body{
-    background-color: aqua;
-} */
+body{
+    background-color: white;
+    
+}
+
 *{
     font-size:20px ;
     font-family:Georgia, 'Times New Roman', Times, serif ;
@@ -10,7 +12,7 @@
 form{
     /* border: 3px solid red; */
     width: 30%;
-    height: 700px;
+    height: 750px;
     margin: auto;
     /* margin-top: 10%; */
     border-radius: 20px;
@@ -33,9 +35,73 @@ select{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     color:darkblue ;
 }
-h1{
+/* h1{
     position: relative;
     left: 42%;
-    font-size: 18px;
+    font-size: 26px;
     
 }
+h2{
+    position: relative;
+    left: 42%;
+    font-size: 22px;
+} */
+#containbox{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.card{
+    /* border: 1px solid red; */
+   text-align: center;
+   background-color: #1a4680;
+   border-radius: 20px;
+   width: 364px;
+   height: 430px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card>img{
+    width: 364px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.hotelname{
+    text-align: center; 
+    color: white;
+}
+.hoprice{
+    color: white;
+}
+#containbox{
+    /* border: 1px solid red; */
+    /* background-color: aliceblue; */
+}
+ button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: auto;
+    height: 40px;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+   
+ }
+ #paginatebox{
+    /* border: 1px solid red; */
+    padding-inline-start: 750px;
+    
+ }
+ #footer{
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+    background-color: #1a4680;
+   
+ }
+ #footer>p{
+    color: white;
+ }

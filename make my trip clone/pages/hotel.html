@@ -12,41 +12,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&family=Lato:wght@900&family=Montserrat:wght@400;500;600;700&family=Poppins&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container1">
+    <div id="navbar_div">
 
     </div>
-    <h1>post the obj in database</h1>   
-    <form action="" id="hotel_form">
-        <label for="">Hotel Location</label>
-        <input type="text" name="location" id="location" placeholder="enter Hotel location">
-        <label for="">Hotel Name</label>
-        <input type="text" name="hotelname" id="hn" placeholder="enter hotel name">
-        <label for="">Customer Name</label>
-        <input type="text" name="custname" id="cn" placeholder="enter customer name">
-        <label for="">Hotel Price per day</label>
-        <input type="number" name="hotelprice" id="hp" placeholder="enter hotel price per day">
-        <label for="">Check-In Date</label>
-        <input type="date" name="checkin" id="cin" placeholder="select check-in date">
-        <label for="">Check-Out Date</label>
-        <input type="date" name="checkout" id="cout" placeholder="select check-out date">
-        <label for="">No.of Guest</label>
-        <input type="number" name="guestno" id="guest" placeholder="enter no.of guest ">
-        <label for="">No. of Rooms required</label>
-        <input type="number" name="roomno" id="rn" placeholder="Enter No. of Rooms required">
-        <select name="roomtype" id="">
-            <option value="">SELECT roomtype</option>
-            <option value="AC">AC</option>
-            <option value="NON AC">NON AC</option>
-          
-        </select> 
-     
-        <input type="submit" onclick="getdata()" >
-    </form>
-    
+    <a href="../index.html">Back to HomePage</a><br>
+    <button id="allhotel">All Hotel</button>
+    <button id="htlbtn" >High to Low Price</button>
+    <button id="lthbtn">Low to High Price</button>
 
-    <h3>Delete items</h3>
-    <input type="text" id="deletecustname" placeholder="delete customer name">
-    <button onclick="deletedata()">click to delete</button>
+    <div id="containbox"></div>
+
+    <div id="paginatebox">
+        <button onclick="paginate(1)">1</button>
+        <button onclick="paginate(2)">2</button>
+        <button onclick="paginate(3)">3</button>
+    </div>
+  
+
+    <div id="footer">
+        <p>© MAKEMYTRIP PVT.LTD.</p>
+    </div>
 </body>
 </html>
-<script src="../script/hotel.js" type="module" ></script>
+<script src="../script/hotel.js" type="module"></script>
+

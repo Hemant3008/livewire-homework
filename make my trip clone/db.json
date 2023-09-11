@@ -1,3 +1,185 @@
 {
-    "hoteldata":[]
+  "hoteldata": [
+    {
+      "location": "Nagpur",
+      "hotelname": "Radisson Blue",
+      "custname": "Vaibhav Narnawre",
+      "hotelprice": 1500,
+      "checkin": "2023-08-15",
+      "checkout": "2023-08-16",
+      "guestno": 1,
+      "roomno": 1,
+      "roomtype": "AC",
+      "id": 1
+    },
+    {
+      "location": "Nagpur",
+      "hotelname": "Sahara",
+      "custname": "Hemant ",
+      "hotelprice": 2000,
+      "checkin": "2023-08-15",
+      "checkout": "2023-08-16",
+      "guestno": 1,
+      "roomno": 1,
+      "roomtype": "AC",
+      "id": 2
+    },
+    {
+      "custid": "5",
+      "location": "Manish Nagar",
+      "hotelname": "sss hotel",
+      "custname": "vaibhya",
+      "hotelprice": 2000,
+      "checkin": "2023-08-16",
+      "checkout": "2023-08-17",
+      "guestno": 2,
+      "roomno": 1,
+      "roomtype": "AC",
+      "id": 3
+    },
+    {
+      "id": "6",
+      "location": "Manish Nagar",
+      "hotelname": "Ashoka",
+      "custname": "gaidhane",
+      "hotelprice": 1500,
+      "checkin": "2023-08-24",
+      "checkout": "2023-08-24",
+      "guestno": 2,
+      "roomno": 1,
+      "roomtype": "AC"
+    },
+    {
+      "id": "11",
+      "location": "Bhandara",
+      "hotelname": "BigB",
+      "custname": "jatin",
+      "hotelprice": 2000,
+      "checkin": "2023-08-25",
+      "checkout": "2023-08-25",
+      "guestno": 1,
+      "roomno": 1,
+      "roomtype": "AC"
+    },
+    {
+      "id": "21",
+      "location": "amravti",
+      "hotelname": "ashoka",
+      "custname": "rushi",
+      "hotelprice": 1000,
+      "checkin": "2023-09-02",
+      "checkout": "2023-09-02",
+      "guestno": 1,
+      "roomno": 1,
+      "roomtype": "AC"
+    },
+    {
+      "id": "55",
+      "location": "Nagpur",
+      "hotelname": "sarthak_ente",
+      "hotelprice": 848484,
+      "checkin": "2023-09-12",
+      "guestno": 5,
+      "roomno": 848,
+      "roomtype": "AC"
+    }
+  ],
+  "usersignupdata": [
+    {
+      "name": "naira",
+      "password": "45645",
+      "todayd": "2023-08-18",
+      "gend": "female",
+      "id": 8
+    },
+    {
+      "name": "sumit",
+      "password": "151",
+      "todayd": "2023-08-24",
+      "gend": "Male",
+      "id": 9
+    },
+    {
+      "name": "akshay",
+      "password": "736",
+      "todayd": "2023-08-24",
+      "gend": "Male",
+      "id": 10
+    },
+    {
+      "name": "anmol",
+      "password": "6632",
+      "todayd": "2023-09-01",
+      "gend": "Male",
+      "id": 11
+    }
+  ],
+  "Customerdata": [
+    {
+      "id": "1",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/318295484.webp?k=9e0b78fd7f9ebc70af85ea0c3413a953988eecdcbd9ecf33de649338a514213b&o=",
+      "honame": "Radisson Blu Hotel, Nagpur",
+      "hoprice": 6750
+    },
+    {
+      "id": "2",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/465562923.webp?k=402545c83f321d03ee7aac73b6c4dc092226f46152c98d6d0b786538559fee30&o=",
+      "honame": "Le Meridien Nagpur",
+      "hoprice": 6000
+    },
+    {
+      "id": "3",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/46600118.webp?k=e5b1d6bdf251e27828cd418a126063442538dc1a7f2ab58ebca1004cc92e123a&o=",
+      "honame": "Tuli Imperial",
+      "hoprice": 5000
+    },
+    {
+      "id": "4",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/277877845.webp?k=d0cdafb154ddd179cd4ff662f830dda6dad40c9452aff9ecf484fd80cfcf90bf&o=",
+      "honame": "Hotel Centre Point, Nagpur",
+      "hoprice": 5400
+    },
+    {
+      "id": "5",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/245290637.webp?k=502c602d6ccbf8924efb72186cd3315947b11cbf8a7ab7ccfd1b559be003091a&o=",
+      "honame": "Treebo0 Trend the Pavilion, Nagpur",
+      "hoprice": 2834
+    },
+    {
+      "id": "6",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/66098306.webp?k=962c210fb1b262cedbc5d92b2476d1734064fb316966e5fa3fe7df12b13d139b&o=",
+      "honame": "Pride Hotel Nagpur",
+      "hoprice": 4666
+    },
+    {
+      "id": "7",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/476568934.webp?k=e6f03159acdf26efa8aeba75042f5386fe6e5272bd519f5f93d03e6dcb5ada9e&o=",
+      "honame": "Spot ON hotel JD sons",
+      "hoprice": 6499
+    },
+    {
+      "id": "8",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/489166548.webp?k=1d5ddc8bd5a595d60d8d86c27ac26c1cb099fe78e0f626e8f7aa8ca9aaf52135&o=",
+      "honame": "Hotel Classic Stay In",
+      "hoprice": 1899
+    },
+    {
+      "id": "9",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/446998674.webp?k=f0a69ad3ea93a77e2116423e0383a5c0330fc19fd1c390ca45f9766cb43b4a90&o=",
+      "honame": "FabHotel Villa 31",
+      "hoprice": 2500
+    },
+    {
+      "id": "10",
+      "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/116024949.webp?k=34f6e181f912bd2ce323c26ed1b2f7906433b0781302d6142a0a23892745da65&o=",
+      "honame": "Hotel President Sitabuldi Nagpur",
+      "hoprice": 4999
+    },
+    {
+      "id": "21",
+      "hoimage": "https://i0.wp.com/tkcdn.tekedia.com/wp-content/uploads/2019/03/06171351/Hotel-Google.png?fit=550%2C410&ssl=1",
+      "honame": "kk hotel",
+      "hoprice": 7999
+    }
+  ]
 }

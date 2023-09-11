@@ -11,6 +11,7 @@
 </head>
 <body>
     <a href="../index.html">Back to Homepage</a>
+    <h1>post the obj in database</h1>  
    <div id="accountform">
     <div class="box1">
         <button class="but1">Personal Account</button>
@@ -19,34 +20,34 @@
     </div>
     <form action="" id="accform">
         <label for="">Email or Mobile Number</label><br>
-        <input type="email || number" name="" id="email" placeholder="Enter email or mobile number">
-        <label for="">First name</label>
-        <input class="f1"  type="First Name" placeholder="Enter First Name">
-        <label for="">Surname</label>
-        <input class="f2" type="Surname" placeholder="Enter Surname">
+        <input type="email || number" name="email/mobile" id="email" placeholder="Enter email or mobile number">
+        <label for=""> Name</label>
+        <input class="f1"  type="text" name="name" placeholder="Enter Name">
+        <label for="password">Enter your password</label>
+        <input type="text" name="password" id="" placeholder="Enter your password">
         <label for="">Date of birth</label> <br>
-        <input class="f5" type="date"  >
-        <div class="gender">
+        <input class="f5" type="date" name="date"  >
+        <div class="gender" >
             <label for="">Gender</label>
             <div id="block3">
                 <div class="g1">
                     <p>Female</p>
-                    <input class="f8" type="radio" name="gender" value=""> 
+                    <input class="f8" type="radio" name="gender" value="female"> 
 
                 </div>
                 <div class="g2">
                     <p>Male</p>
-                    <input class="f9" type="radio" name="gender" value="">
+                    <input class="f9" type="radio" name="gender" value="Male">
                 </div>
                 <div class="g3">
                     <p>Custom</p>
-                    <input class="f10" type="radio" name="gender" value="">
+                    <input class="f10" type="radio" name="gender" value="custom">
 
                 </div>
             </div>
         </div>
         <div class="cont">
-            <input class="contbtn" type="submit" value="CONTINUE">
+            <input class="contbtn" onclick="signupdata()" type="submit" value="CONTINUE">
         </div>
            
         <div class="ulog">
@@ -69,6 +70,19 @@
 
 
    </div>
+     <h2>Login form</h2>
+   <form action="" id="formlogin">
+    <label for="name">Enter your name</label><br>
+    <input type="text" name="name" id="" placeholder="Enter your name"><br>
+    <label for="password">Enter your password</label><br>
+    <input type="text" name="password" id="" placeholder="Enter your password">
+    <input type="submit" >
+
+   </form>
+
+   <h3>Delete items</h3>
+   <input type="text" id="deleteid" placeholder="enter id to delete data">
+   <button onclick="deletedata()" id="delbutt">click to delete</button>
     
 </body>
 </html>
