@@ -9,7 +9,7 @@ nav_div.innerHTML=navbar();
 let rr=document.getElementById("rform")
 rr.addEventListener("submit",show)
 function show(){
-    console.log('indise')
+
     let rform=document.getElementById("rform");
 
     if(rform.style.display=="none")
@@ -123,7 +123,7 @@ function show(){
 //     })
 // }
 
-const bUrl=`http://localhost:3000/Customerdata`;
+const bUrl=`http://localhost:3000/Hoteldata`;
 
 let containbox= document.getElementById("containbox");
 window.onload= paginate(1)
@@ -153,7 +153,7 @@ function display(el,i,arr){
     hotelname.innerText=el.honame;
     hotelname.setAttribute("class","hotelname");
     let hotelprice = document.createElement("h2");
-    hotelprice.innerText= el.hoprice+"/day";
+    hotelprice.innerText= el.hoprice+" rs/day";
     hotelprice.setAttribute("class","hoprice")
     let button=document.createElement("button");
     button.innerText="Book Now"
@@ -196,14 +196,15 @@ async function sort_lth(){
 function loadfun(){
 window.location.href="https://www.makemytrip.com/"
 }
+
+
 let paginateb=document.getElementById("paginatebox");
 paginateb.addEventListener("click",paginate)
 async function paginate(value){
-    containbox.innerHTML= "";
-    console.log("inside")
-
+    containbox.innerHTML=" ";
+   
     try{
-        let mydata= await fetch(`${bUrl}?_page=${value}&_limit=10`)
+        let mydata= await fetch(`${bUrl}?_page=${value}&_limit=20`)
         let finaldata= await mydata.json();
         finaldata.forEach(display);
     }

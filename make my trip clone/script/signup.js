@@ -12,14 +12,20 @@ async function signupdata(){
     let obj={
         name,password,todayd,gend
     }
+    try{
+        await fetch(`${baseUrl}`,{
+            method:"POST",
+            body:JSON.stringify(obj),
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+        alert ("sign up successfull please Login")
+    }
+    catch(error){
+        alert("Enter correct Details")
+    }
     
-    await fetch(`${baseUrl}`,{
-        method:"POST",
-        body:JSON.stringify(obj),
-        headers:{
-            "Content-Type":"application/json"
-        }
-    })
 }
 
 async function deletedata(){

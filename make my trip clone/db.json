@@ -1,89 +1,4 @@
 {
-  "hoteldata": [
-    {
-      "location": "Nagpur",
-      "hotelname": "Radisson Blue",
-      "custname": "Vaibhav Narnawre",
-      "hotelprice": 1500,
-      "checkin": "2023-08-15",
-      "checkout": "2023-08-16",
-      "guestno": 1,
-      "roomno": 1,
-      "roomtype": "AC",
-      "id": 1
-    },
-    {
-      "location": "Nagpur",
-      "hotelname": "Sahara",
-      "custname": "Hemant ",
-      "hotelprice": 2000,
-      "checkin": "2023-08-15",
-      "checkout": "2023-08-16",
-      "guestno": 1,
-      "roomno": 1,
-      "roomtype": "AC",
-      "id": 2
-    },
-    {
-      "custid": "5",
-      "location": "Manish Nagar",
-      "hotelname": "sss hotel",
-      "custname": "vaibhya",
-      "hotelprice": 2000,
-      "checkin": "2023-08-16",
-      "checkout": "2023-08-17",
-      "guestno": 2,
-      "roomno": 1,
-      "roomtype": "AC",
-      "id": 3
-    },
-    {
-      "id": "6",
-      "location": "Manish Nagar",
-      "hotelname": "Ashoka",
-      "custname": "gaidhane",
-      "hotelprice": 1500,
-      "checkin": "2023-08-24",
-      "checkout": "2023-08-24",
-      "guestno": 2,
-      "roomno": 1,
-      "roomtype": "AC"
-    },
-    {
-      "id": "11",
-      "location": "Bhandara",
-      "hotelname": "BigB",
-      "custname": "jatin",
-      "hotelprice": 2000,
-      "checkin": "2023-08-25",
-      "checkout": "2023-08-25",
-      "guestno": 1,
-      "roomno": 1,
-      "roomtype": "AC"
-    },
-    {
-      "id": "21",
-      "location": "amravti",
-      "hotelname": "ashoka",
-      "custname": "rushi",
-      "hotelprice": 1000,
-      "checkin": "2023-09-02",
-      "checkout": "2023-09-02",
-      "guestno": 1,
-      "roomno": 1,
-      "roomtype": "AC"
-    },
-    {
-      "id": "55",
-      "location": "Nagpur",
-      "hotelname": "sarthak_ente",
-      "hotelprice": 848484,
-      "checkin": "2023-09-12",
-      "guestno": 5,
-      "roomno": 848,
-      "roomtype": "AC"
-    }
-  ],
   "usersignupdata": [
     {
       "name": "naira",
@@ -114,7 +29,7 @@
       "id": 11
     }
   ],
-  "Customerdata": [
+  "Hoteldata": [
     {
       "id": "1",
       "hoimage": "https://cf.bstatic.com/xdata/images/hotel/square200/318295484.webp?k=9e0b78fd7f9ebc70af85ea0c3413a953988eecdcbd9ecf33de649338a514213b&o=",

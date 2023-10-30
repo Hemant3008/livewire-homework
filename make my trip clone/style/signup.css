@@ -141,14 +141,14 @@ form{
     background-color: #008cff;
 }
 .u1{
-    width: 150px;
+    width: 175px;
     height: 30px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .u2{
-    width: 160px;
+    width: 180px;
     height: 30px;
-    
+    margin-left: 10px;
 }
 .ulog{
     display: flex;
@@ -187,25 +187,35 @@ form{
     text-decoration: none;
     margin-right: 5px;
 }
-.belowtxt>p{
+/* .belowtxt>p{
     
-}
+} */
 
 h1{
     text-align: center;
 }
+h3{
+    position: relative;
+    left: 46%;
+    margin-top: 30px;
+   
+}
 
 #deleteid{
-    width: 30%;
-    height:30px;
+    width: 40%;
+    height:40px;
+    position: relative;
+    left: 30%;
 }
 
 #delbutt{
-    width: 30%;
+    width: 40.5%;
     height:40px;
     background-color: #008cff;
     color: #f0f2f5;
     font-size: large;
+    position: relative;
+    left: 30%;
 }
 
 #formlogin{

@@ -41,7 +41,7 @@ body{
 .navbar1{
     /* border: 1px solid red; */
     height: 70px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;

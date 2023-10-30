@@ -1,96 +1,86 @@
-const baseUrl=`http://localhost:3000/hoteldata`;
+// const baseUrl=`http://localhost:3000/hoteldata`;
 
-let form=document.getElementById("hotel_form")
-form.addEventListener("submit",gdata)
-async function gdata()
-{
+// let form=document.getElementById("hotel_form")
+// form.addEventListener("submit",gdata)
+// async function gdata()
+// {
     
-    event.preventDefault()
-    let hotelform=document.getElementById("hotel_form");
-    let id=hotelform.fid.value;
-    let location=hotelform.location.value;
-    let hotelname=hotelform.hotelname.value;
-    let hotelprice=Number(hotelform.hotelprice.value);
-    let checkin=hotelform.checkin.value;
-    let guestno=Number(hotelform.guestno.value);
-    let roomno=Number(hotelform.roomno.value);
-    let roomtype=hotelform.roomtype.value;
+//     event.preventDefault()
+//     let hotelform=document.getElementById("hotel_form");
+//     let id=hotelform.fid.value;
+//     let location=hotelform.location.value;
+//     let hotelname=hotelform.hotelname.value;
+//     let hotelprice=Number(hotelform.hotelprice.value);
+//     let checkin=hotelform.checkin.value;
+//     let guestno=Number(hotelform.guestno.value);
+//     let roomno=Number(hotelform.roomno.value);
+//     let roomtype=hotelform.roomtype.value;
 
-    let obj={
-        id,
-        location,
-        hotelname,
-        hotelprice,
-        checkin,
-        guestno,
-        roomno,
-        roomtype
-    }
-    console.log(obj)
-    await fetch(`${baseUrl}`,{
-        method:"POST",
-        body:JSON.stringify(obj),
-        headers:{
-            "Content-Type":"application/json"
-        }
+//     let obj={
+//         id,
+//         location,
+//         hotelname,
+//         hotelprice,
+//         checkin,
+//         guestno,
+//         roomno,
+//         roomtype
+//     }
+//     console.log(obj)
+//     await fetch(`${baseUrl}`,{
+//         method:"POST",
+//         body:JSON.stringify(obj),
+//         headers:{
+//             "Content-Type":"application/json"
+//         }
         
-    })
+//     })
 
 
-}
- let data=document.getElementById("hotelupdate");
- data.addEventListener("submit",updata)
+// }
+//  let data=document.getElementById("hotelupdate");
+//  data.addEventListener("submit",updata)
 
-async function updata()
-{
+// async function updata()
+// {
 
-    event.preventDefault()
-    let hotelform=document.getElementById("hotelupdate");
-    let id=hotelform.fid.value;
-    let location=hotelform.location.value;
-    let hotelname=hotelform.hotelname.value;
-    let hotelprice=Number(hotelform.hotelprice.value);
-    let checkin=hotelform.checkin.value;
-    let guestno=Number(hotelform.guestno.value);
-    let roomno=Number(hotelform.roomno.value);
-    let roomtype=hotelform.roomtype.value;
+//     event.preventDefault()
+//     let hotelform=document.getElementById("hotelupdate");
+//     let id=hotelform.fid.value;
+//     let location=hotelform.location.value;
+//     let hotelname=hotelform.hotelname.value;
+//     let hotelprice=Number(hotelform.hotelprice.value);
+//     let checkin=hotelform.checkin.value;
+//     let guestno=Number(hotelform.guestno.value);
+//     let roomno=Number(hotelform.roomno.value);
+//     let roomtype=hotelform.roomtype.value;
 
-    let obj={
-        id,
-        location,
-        hotelname,
-        hotelprice,
-        checkin,
-        guestno,
-        roomno,
-        roomtype
-    }
-    console.log(obj)
-    await fetch(`${baseUrl}/${id}`,{
-        method:"PATCH",
-        body:JSON.stringify(obj),
-        headers:{
-            "Content-Type":"application/json"
-        }
+//     let obj={
+//         id,
+//         location,
+//         hotelname,
+//         hotelprice,
+//         checkin,
+//         guestno,
+//         roomno,
+//         roomtype
+//     }
+//     console.log(obj)
+//     await fetch(`${baseUrl}/${id}`,{
+//         method:"PATCH",
+//         body:JSON.stringify(obj),
+//         headers:{
+//             "Content-Type":"application/json"
+//         }
         
-    })
+//     })
 
-}
+// }
 
 
-let delbtn=document.getElementById("delbtn");
-delbtn.addEventListener("click",deldata)
 
-async function deldata(){
-   
-    let delid=document.getElementById("deleteid").value;
-   
-    await fetch(`http://localhost:3000/hoteldata/${delid}`,{
-        method:"DELETE",
-    })
-}
 
-const bUrl=`http://localhost:3000/Customerdata`;
+const bUrl=`http://localhost:3000/Hoteldata`;
 
 let hform=document.getElementById("hoteldata");
 hform.addEventListener("submit",godata)
@@ -119,3 +109,14 @@ async function godata(){
 }
 
 
+let delbtn=document.getElementById("delbtn");
+delbtn.addEventListener("click",deldata)
+
+async function deldata(){
+   
+    let delid=document.getElementById("deleteid").value;
+   
+    await fetch(`http://localhost:3000/Hoteldata/${delid}`,{
+        method:"DELETE",
+    })
+}
