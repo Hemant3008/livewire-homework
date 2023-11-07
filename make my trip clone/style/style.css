@@ -4,14 +4,12 @@
     height:580px;
     background-image: linear-gradient( #061424, #0b223d, #12345e);
     align-items: center;
-    
 }
 body{
-    width: 100%;
+    max-width: 100%;
 }
 .logoimg{
     /* border: 1px solid red; */
-    
     height: 38px;   
 }
 .disc{
@@ -36,18 +34,18 @@ body{
     font-weight: 400;
     font-size: 10px;
     line-height: 10px;
-    
 }
 .navbar1{
     /* border: 1px solid red; */
-    height: 70px;
-    width: 100%;
+    height: 60px;
+    width: 95%;
     margin: auto;
+    /* margin-left: 5%; */
     display: flex;
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 5px;
+    /* padding: 5px; */
     background-color:  #061424;
 }
 .discount{
@@ -77,7 +75,6 @@ body{
     font-size: 14px;
     font-weight: 700;
     color: white;
-
 }
 .b2b{
     text-decoration: none;
@@ -86,7 +83,6 @@ body{
     font-weight: 400;
     color: white;
     line-height: 10px;  
-
 }
 .b2{
     display: grid;
@@ -103,7 +99,6 @@ body{
     font-weight: 700;
     color: white;
     line-height: 11px;  
-
 }
 .c2b{
     text-decoration: none;
@@ -112,7 +107,6 @@ body{
     font-weight: 700;
     color: white;
     line-height: 10px;  
-
 }
 .c2{
     display: grid;
@@ -154,7 +148,6 @@ body{
 .indiaflag{
     width: 15px;
     height: 10px;
-   
 }
 .dropdown{
     /* background-color: white; */
@@ -162,7 +155,6 @@ body{
     height: 500px; */
     position: relative;
     margin-left: 20px;
-    
 }
 .dropbtn1{
     background: none;
@@ -174,11 +166,6 @@ body{
     width: auto;
 }
 
-/* .dropdown:hover #rform {
-    display: block;
-
-    background-color: white;
-} */
 #rform{
     /* border: 1px solid red; */
     width:300px;
@@ -193,7 +180,6 @@ body{
     top: 50px;
     z-index: 10;
 }
-
 #country{
     width: 80%;
     height: 40px;
@@ -205,7 +191,6 @@ body{
 }
 .f111{
     display: flex;
-    
 }
 .currency{
     margin-left: 60px;
@@ -216,11 +201,9 @@ body{
     font-size: 12px;
     line-height: 12px;
     color: #4a4a4a;
-    
 }
 .language{
-    margin-left: 25px;
-    
+    margin-left: 25px; 
 }
 
 .language>label{
@@ -259,14 +242,11 @@ body{
     background-image: linear-gradient(to right,#50aefe,#2c86f8,#095ef4);
     border: 0;
 }
-
-
 .box1{
     width: 62%;
     margin: auto;
     /* border:1px solid #d2d2d2; */
     margin-top: -365px;
-    
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -389,20 +369,16 @@ body{
     height: 330px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 80px;
-    
-    
+    margin-top: 80px;   
 }
 .pp{
     display: flex;
     align-items: center;
-
 }
 .pp>input{
-   
         padding-top: 60px;
         margin-top: 60px;
-        margin-left: 40px;
+        margin-left: 55px;
 }
 .pp>label{
     /* position: relative;
@@ -411,7 +387,7 @@ body{
 }
 .pp>p{
     margin-top: 70px;
-    margin-left: 650px;
+    margin-left: 530px;
 }
 #nform{
     /* border:1px solid red; */
@@ -607,12 +583,10 @@ body{
     /* border: 1px solid red; */
     /*   */
     border: 0;
-  
-    
 }
 #butt>button{
    margin-left: 640px;
-   margin-top: 255px;
+   margin-top: 260px;
    width: 220px;
    height: 45px;
    border-radius: 20px;
@@ -645,7 +619,7 @@ body{
 }
 .box3{
     display: flex;
-    width: 65%;
+    width: 70%;
     height: 60px;
     /* border:1px solid red; */
     margin: auto;
@@ -666,7 +640,7 @@ body{
     color: #4a4a4a;
     line-height: 14px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .box3a{
     display: flex;
@@ -703,7 +677,7 @@ body{
 .box3b{
     display: flex;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 25px;
     align-items: center;
     border:1px solid #d8d8d8;
     height: 58px;
@@ -743,7 +717,7 @@ body{
 }
 .box3c{
     display: flex;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .icc{
     display: grid;
@@ -774,7 +748,7 @@ body{
     display: flex;
     border:1px solid #d8d8d8;
     height: 58px;
-    width: 200px;
+    width: 210px;
     border-bottom: 0;
     border-top: 0;
     align-items: center;
@@ -1166,13 +1140,11 @@ b {
 }
 .aa4{
     display: grid;
-    
     margin-right: 40px;
 }
 .qr{
     width: 120px;
     height: 120px;
-
 }
 .smalld{
     display: flex;
@@ -1188,8 +1160,6 @@ b {
     border-radius: 10px;
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-    
-
 }
 .iii{
     width: 200px;
@@ -1202,14 +1172,14 @@ b {
 }
 #alpha5>button{
     position: relative;
-    left: 50%;
+    left: 48%;
     height: 40px;
     width: 50px;
     margin-top: 20px;
     color:#50aefe;
     border-radius: 5px;
     background-color: white;
-
+    border-color:#50aefe;
 }
 
 #alpha5>h1{
@@ -1236,13 +1206,14 @@ b {
 }
 #alpha6>button{
     position: relative;
-    left: 42%;
+    left: 40%;
     height: 40px;
     width: 50px;
     margin-top: 20px;
     color:#50aefe;
     border-radius: 5px;
     background-color: white;
+    border-color:#50aefe;
 }
 
 #container7{

@@ -1,6 +1,6 @@
 
 body{
-    width: 100%;
+    max-width: 100%;
 }
 .logoimg{
     /* border: 1px solid red; */
@@ -33,14 +33,15 @@ body{
 }
 .navbar1{
     /* border: 1px solid red; */
-    height: 70px;
-    width: 100%;
+    height: 60px;
+    width: 95%;
     margin: auto;
+    /* margin-left: 5%; */
     display: flex;
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 5px;
+    /* padding: 5px; */
     background-color:  #061424;
     
 }
